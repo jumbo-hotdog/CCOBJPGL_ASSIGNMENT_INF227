@@ -8,12 +8,12 @@ public class exercise1 {
         App myApp = new App();
 
         // precondition 
-        assert iWillReview == true: "Reviewing..";
+        assert iWillReview == true: "Tinamad ako.";
 
         myApp.Study();
 
         // postcondition 
-        assert iWillNotFail == true: "Passed!";
+        assert iWillNotFail == true: "Hindi kasi nagreview.";
 
         System.out.println(iWillReview);
         System.out.println(iWillNotFail);
