@@ -15,13 +15,11 @@ public class exercise1 {
         // postcondition 
         assert iWillNotFail == true: "Hindi kasi nagreview.";
 
-        System.out.println(iWillReview);
-        System.out.println(iWillNotFail);
+        System.out.println();
 
 }
         void Study() {
 
-            iWillReview = false;
             iWillNotFail = false;
   }
 }
